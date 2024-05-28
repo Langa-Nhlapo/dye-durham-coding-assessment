@@ -78,7 +78,7 @@ namespace Application
 
           // Sort the list according to the lastname
           people.Sort(new PersonComparer());
-;
+          
           // Write the sorted list to a new sorted list textfile
           foreach (Person _person in people)
           {

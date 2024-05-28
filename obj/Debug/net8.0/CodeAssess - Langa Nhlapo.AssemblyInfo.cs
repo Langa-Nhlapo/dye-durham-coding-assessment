@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CodeAssess - Langa Nhlapo")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3738589b3efc5a614255017df2a55ea14a8b55d7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+19373eba5dc467d7e77b66fa2792aa547de598fa")]
 [assembly: System.Reflection.AssemblyProductAttribute("CodeAssess - Langa Nhlapo")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CodeAssess - Langa Nhlapo")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
