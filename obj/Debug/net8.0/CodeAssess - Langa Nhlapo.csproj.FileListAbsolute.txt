@@ -1,0 +1,14 @@
+/home/langa/Desktop/CodeAssess - Langa Nhlapo/bin/Debug/net8.0/CodeAssess - Langa Nhlapo
+/home/langa/Desktop/CodeAssess - Langa Nhlapo/bin/Debug/net8.0/CodeAssess - Langa Nhlapo.deps.json
+/home/langa/Desktop/CodeAssess - Langa Nhlapo/bin/Debug/net8.0/CodeAssess - Langa Nhlapo.runtimeconfig.json
+/home/langa/Desktop/CodeAssess - Langa Nhlapo/bin/Debug/net8.0/CodeAssess - Langa Nhlapo.dll
+/home/langa/Desktop/CodeAssess - Langa Nhlapo/bin/Debug/net8.0/CodeAssess - Langa Nhlapo.pdb
+/home/langa/Desktop/CodeAssess - Langa Nhlapo/obj/Debug/net8.0/CodeAssess - Langa Nhlapo.GeneratedMSBuildEditorConfig.editorconfig
+/home/langa/Desktop/CodeAssess - Langa Nhlapo/obj/Debug/net8.0/CodeAssess - Langa Nhlapo.AssemblyInfoInputs.cache
+/home/langa/Desktop/CodeAssess - Langa Nhlapo/obj/Debug/net8.0/CodeAssess - Langa Nhlapo.AssemblyInfo.cs
+/home/langa/Desktop/CodeAssess - Langa Nhlapo/obj/Debug/net8.0/CodeAssess - Langa Nhlapo.csproj.CoreCompileInputs.cache
+/home/langa/Desktop/CodeAssess - Langa Nhlapo/obj/Debug/net8.0/CodeAssess - Langa Nhlapo.dll
+/home/langa/Desktop/CodeAssess - Langa Nhlapo/obj/Debug/net8.0/refint/CodeAssess - Langa Nhlapo.dll
+/home/langa/Desktop/CodeAssess - Langa Nhlapo/obj/Debug/net8.0/CodeAssess - Langa Nhlapo.pdb
+/home/langa/Desktop/CodeAssess - Langa Nhlapo/obj/Debug/net8.0/CodeAssess - Langa Nhlapo.genruntimeconfig.cache
+/home/langa/Desktop/CodeAssess - Langa Nhlapo/obj/Debug/net8.0/ref/CodeAssess - Langa Nhlapo.dll
