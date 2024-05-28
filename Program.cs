@@ -8,10 +8,12 @@ namespace Application
     class Person
     {
       public string FirstName;
+      public string MiddleNames;
       public string LastName;
-      public Person(string firstName, string lastName)
+      public Person(string firstName, string middleNames, string lastName)
       {
         FirstName = firstName;
+        MiddleNames = middleNames;
         LastName = lastName;
       }
     }
@@ -26,7 +28,7 @@ namespace Application
 
     static void Main(string[] args)
     {
-      String line, _firstName = "", _lastName = "";
+      String line, _firstName = "", _middleNames = "", _lastName = "";
       List<Person> people = new List<Person>();
       Person person;
 
@@ -44,11 +46,55 @@ namespace Application
           // Continue to read until you reach end of file while adding to the list of people
           while (line != null)
           {
-            int index = line.IndexOf(" ");
-            _firstName = line.Substring(0, index);
-            _lastName = line.Substring(index + 1);
+            // Console.WriteLine(line);
+            int countNames = line.Split(" ").Length;
+            int index = 0;
+            string names = line;
 
-            people.Add(new Person(_firstName, _lastName));
+            // Console.WriteLine("Names: " + countNames);
+            string lastName = names.Split().Last();
+
+            if ((countNames - 1) == 1) {
+              index = names.IndexOf(" ");
+              _firstName = names.Substring(0, index);
+              _middleNames = "";
+              _lastName = names.Split().Last();
+
+              people.Add(new Person(_firstName, _middleNames, _lastName));
+            } else if ((countNames - 1) == 2) {
+              index = names.IndexOf(" ");
+              string[] namesList = names.Split("");
+              
+              _firstName = names.Substring(0, index);
+              _middleNames = names.Substring(index + 1, index);
+              _lastName = names.Split().Last();
+
+              people.Add(new Person(_firstName, _middleNames, _lastName));
+            }
+
+            // Split names separated by a whitespace followed by space
+            //string[] namesList = names.Split("");
+            // foreach (string _names in namesList)
+            // Console.WriteLine(_names);
+
+            // if (count == 2) {
+            //   index = line.IndexOf(" ");
+            //   _firstName = line.Substring(0, index);
+            //   _lastName = line.Substring(index + 1);
+
+            //   people.Add(new Person(_firstName, _lastName));
+            // } else if (count == 3) {
+            //   index = line.IndexOf(" ");
+            //   _firstName = line.Substring(0, index);
+            //   _middleName = line.Substring();
+            //   _lastName = line.Substring(index + 1);
+            // }
+
+            // int index = line.IndexOf(" ");
+            // _firstName = line.Substring(0, index);
+            // _lastName = line.Substring(index + 1);
+
+            // people.Add(new Person(_firstName, _lastName));
 
             // Read the next line
             line = sr.ReadLine();
@@ -56,12 +102,17 @@ namespace Application
 
           // Sort the list according to the lastname
           people.Sort(new PersonComparer());
-
+;
           // Write the sorted list to a new sorted list textfile
           foreach (Person _person in people)
           {
-            Console.WriteLine(_person.FirstName + " " + _person.LastName);
-            sw.WriteLine(_person.FirstName + " " + _person.LastName);
+            if (_person.MiddleNames == "") {
+              sw.WriteLine(_person.FirstName + " " + _person.LastName);
+              Console.WriteLine(_person.FirstName + " " + _person.LastName);
+            } else {
+              sw.WriteLine(_person.FirstName + " " + _person.MiddleNames + " " + _person.LastName);
+              Console.WriteLine(_person.FirstName + " " + _person.MiddleNames + " " + _person.LastName);
+            }
           }
 
           //close the file

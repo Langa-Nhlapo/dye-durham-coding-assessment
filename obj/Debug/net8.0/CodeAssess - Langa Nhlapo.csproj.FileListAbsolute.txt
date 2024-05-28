@@ -12,3 +12,4 @@
 /home/langa/Desktop/CodeAssess - Langa Nhlapo/obj/Debug/net8.0/CodeAssess - Langa Nhlapo.pdb
 /home/langa/Desktop/CodeAssess - Langa Nhlapo/obj/Debug/net8.0/CodeAssess - Langa Nhlapo.genruntimeconfig.cache
 /home/langa/Desktop/CodeAssess - Langa Nhlapo/obj/Debug/net8.0/ref/CodeAssess - Langa Nhlapo.dll
+/home/langa/Desktop/CodeAssess - Langa Nhlapo/obj/Debug/net8.0/CodeAssess - Langa Nhlapo.sourcelink.json
