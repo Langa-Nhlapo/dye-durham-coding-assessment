@@ -72,30 +72,6 @@ namespace Application
               people.Add(new Person(_firstName, _middleNames, _lastName));
             }
 
-            // Split names separated by a whitespace followed by space
-            //string[] namesList = names.Split("");
-            // foreach (string _names in namesList)
-            // Console.WriteLine(_names);
-
-            // if (count == 2) {
-            //   index = line.IndexOf(" ");
-            //   _firstName = line.Substring(0, index);
-            //   _lastName = line.Substring(index + 1);
-
-            //   people.Add(new Person(_firstName, _lastName));
-            // } else if (count == 3) {
-            //   index = line.IndexOf(" ");
-            //   _firstName = line.Substring(0, index);
-            //   _middleName = line.Substring();
-            //   _lastName = line.Substring(index + 1);
-            // }
-
-            // int index = line.IndexOf(" ");
-            // _firstName = line.Substring(0, index);
-            // _lastName = line.Substring(index + 1);
-
-            // people.Add(new Person(_firstName, _lastName));
-
             // Read the next line
             line = sr.ReadLine();
           }
